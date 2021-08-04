@@ -44,8 +44,8 @@ import datasets
 
 logger = datasets.logging.get_logger(__name__)
 
-_BASE_DIR = "https://brwac-clean.s3.sa-east-1.amazonaws.com/"
-_BASE_DATA_URL = "https://brwac-clean.s3.sa-east-1.amazonaws.com/data/"
+_BASE_DIR = "/home/diogo/extracted/brwac-clean/"
+_BASE_DATA_URL = "/home/diogo/extracted/brwac-clean/data/"
 
 
 class BrwacCleanConfig(datasets.BuilderConfig):
